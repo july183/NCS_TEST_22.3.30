@@ -2,7 +2,7 @@
   "name": "table",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/july183/NCS_TEST_22.3.30#readme",
   "dependencies": {
+    "concurrently": "^7.0.0",
     "express": "^4.17.3",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.15"
   }
 }
