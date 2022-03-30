@@ -10,7 +10,8 @@ const Interview = (props) => {
                                     (result) => {  //test형 array
                                         try{  
                                             interviewIdUpdate([...result.data]); //[...result.data]이때는 object
-                                            insertDB(result.data[result.data.length -1].no);                                                 
+                                            insertDB(result.data[result.data.length -1].no);  
+                                            //interDB로 데이터접수 후 typeData값을 변형해 useDffect를 실행할 시점알리기                                               
                                         }
                                         catch(err){ console.log(err.message) }
                                     }
