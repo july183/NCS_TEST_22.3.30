@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/',(req, res) => {
-    res.send('/sqsend');
+    res.send('/rousend');
 })
 router.get('/getsend',(req, res) => {
     res.send({'url':'/sqsend/getsend'});
