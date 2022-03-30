@@ -4,7 +4,7 @@ import Interview from './interview';
 function App() {
   return (
     <div >
-      <Interview botable='introduce.conent_interview'></Interview>
+      <Interview botable='aws'></Interview>
     </div>
   );
 }
